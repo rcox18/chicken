@@ -1,5 +1,5 @@
 <?php
-/**
+/*
  * @author     Robert Cox
  * @version    1.0.0
  * @link       http://rcox.greenriverdev.com/IT328/chicken
