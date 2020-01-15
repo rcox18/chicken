@@ -8,3 +8,17 @@
 
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
+
+//require autoload.php
+require ("vendor/autoload.php");
+
+//instantiate fat-free
+$f3 = Base::instance();
+
+//define default route
+$f3->route("GET /", function (){
+    echo "Hello";
+});
+
+//run fat free
+$f3->run();
